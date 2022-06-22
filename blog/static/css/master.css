@@ -1,0 +1,61 @@
+#welcom_text {
+  padding: 10px;
+  text-align: center;
+  color: #486E75;
+  margin-top: 10%;
+}
+body {
+  background-color: #303333;
+}
+
+.mynav {
+  background-color: #BDD9D2;
+  width: 100%;
+}
+
+h3 {
+  color: #486E75;
+}
+
+.jumbotron {
+  background-color : #BDD9D2;
+  color: 486E75;
+  padding-top: 20px;
+  width: 90%;
+  margin-left: 80px;
+  align-items: center;
+}
+
+p {
+  color: #486E75;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+ .paragraph {
+   background-color: #BDD9D2;
+ }
+
+h1 {
+  color: #303333;
+}
+
+#header {
+  padding: 30px;
+}
+
+.page-content {
+  height: 50%;
+  margin-top: 100px;
+  margin-left: 10%;
+  width: 70%;
+}
+
+.text {
+  padding: 30px;
+  text-align: center;
+}
+
+#title {
+  background-color: #BDD9D2;
+}

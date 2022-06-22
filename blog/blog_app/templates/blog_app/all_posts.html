@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+<h1 id="tittle">Code Wizard Blog Posts</h1>
+</div>
+<div class="container">
+  <ul class="list-group">
+    {% for blog_post in object_list  %}
+    <a href="{% url 'blog_app:view' blog_post.id %}"><li class="list-group-item">{{blog_post.post_title}}</li></a>
+    {% endfor %}
+</ul>
+</div>
+{% endblock %}

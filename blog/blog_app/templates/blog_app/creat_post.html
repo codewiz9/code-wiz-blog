@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% load bootstrap4 %}
+
+{% block content %}
+
+  <h1>Create blog poss here</h1>
+  <div class="jumbotron">
+    <form class="form-horizontal" method="post">
+      {% csrf_token %}
+      {{form.as_p}}
+      <button type="submit" class="btn btn-success">Submit</button>
+     </form>
+  </div>
+{% endblock %}
