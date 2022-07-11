@@ -31,7 +31,11 @@ SECRET_KEY = 'tves9v@acxbjz9fn%i*5i#@x2r9ishg#!kn2%8pl=zxz$d+ui&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['*']
+=======
+ALLOWED_HOSTS = ['codewizblog.pythonanywhere.com']
+>>>>>>> fd8c4b9347f39e845f8907164d8a6a0ecc4b24ae
 
 
 # Application definition
